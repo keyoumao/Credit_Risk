@@ -34,23 +34,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/keyoumao/repo_name">
+  <a href="https://github.com/keyoumao/Credit_Risk">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Assess Credit Risk</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    Use supervised machine learning to assess the credit risk.
     <br />
-    <a href="https://github.com/keyoumao/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/keyoumao/Credit_Risk"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/keyoumao/repo_name">View Demo</a>
+    <a href="https://github.com/keyoumao/Credit_Risk">View Demo</a>
     ·
-    <a href="https://github.com/keyoumao/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/keyoumao/Credit_Risk/issues">Report Bug</a>
     ·
-    <a href="https://github.com/keyoumao/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/keyoumao/Credit_Risk/issues">Request Feature</a>
   </p>
 </p>
 
@@ -62,8 +62,6 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -82,6 +80,9 @@ Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `github_username`, `repo_name`, `twitter_handle`, `email`
 
+In 2019, more than 19 million Americans had at least one unsecured personal loan. That’s a record-breaking number! Personal lending is growing faster than credit card, auto, mortgage, and even student debt. With such incredible growth, FinTech firms are storming ahead of traditional loan processes. By using the latest machine learning techniques, these FinTech firms can continuously analyze large amounts of data and predict trends to optimize lending.
+
+We used Python to build and evaluate several machine learning models to predict credit risk. Being able to predict credit risk with machine learning algorithms can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud.
 
 ### Built With
 
@@ -104,19 +105,6 @@ This is an example of how to list things you need to use the software and how to
 npm install npm@latest -g
 ```
 
-### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo_name.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -129,8 +117,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
+Logistic Regression 
+Classification Model Validation 
+Support Vector Machines 
+Data Preprocessing in Machine Learning 
+Decision Trees 
+Ensemble Learning and Random Forests 
+Bagging and Boosting 
 
 
 <!-- CONTRIBUTING -->
@@ -158,7 +151,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-Project Link: [https://github.com/keyoumao/repo_name](https://github.com/keyoumao/repo_name)
+Project Link: [https://github.com/keyoumao/Credit_Risk](https://github.com/keyoumao/Credit_Risk)
 
 
 
@@ -188,9 +181,6 @@ Project Link: [https://github.com/keyoumao/repo_name](https://github.com/keyouma
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
 [product-screenshot]: images/screenshot.png
-# Assess Credit Risk
-
-Evaluate the performance of these models and make a recommendation on whether they should be used to predict credit risk.
 
 ## Challenge
 
@@ -199,7 +189,7 @@ The goals of this challenge are to:
 - Implement machine learning models.
 - Use resampling to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
-
+scikit-learn library.
 ## Tasks
 
 1. Oversample the data using the RandomOverSampler and SMOTE algorithms.
