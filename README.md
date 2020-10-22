@@ -117,13 +117,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-Logistic Regression 
-Classification Model Validation 
-Support Vector Machines 
-Data Preprocessing in Machine Learning 
-Decision Trees 
-Ensemble Learning and Random Forests 
-Bagging and Boosting 
+- Logistic Regression 
+- Classification Model Validation 
+- Support Vector Machines 
+- Data Preprocessing in Machine Learning 
+- Decision Trees 
+- Ensemble Learning and Random Forests 
+- Bagging and Boosting 
 
 
 <!-- CONTRIBUTING -->
@@ -189,6 +189,7 @@ The goals of this challenge are to:
 - Implement machine learning models.
 - Use resampling to attempt to address class imbalance.
 - Evaluate the performance of machine learning models.
+
 scikit-learn library.
 ## Tasks
 
