@@ -16,20 +16,15 @@ We used Python to build and evaluate several machine learning models to predict 
 - Ensemble Learning and Random Forests 
 - Bagging and Boosting 
 
+## Steps
 
-
-
-
-## Challenge
-
-The goals of this challenge are to:
+The goals of this project are to:
 
 - Implement machine learning models.
 - Use resampling to attempt to address class imbalance.
-- Evaluate the performance of machine learning models.
+- Evaluate the performance of machine learning models using scikit-learn library.
 
-scikit-learn library.
-## Tasks
+### Tasks
 
 1. Oversample the data using the RandomOverSampler and SMOTE algorithms.
 2. Undersample the data using the cluster centroids algorithm.
